@@ -18,7 +18,7 @@ python -m pip install -r requirements.txt
 Run the jupyter notebook ```gesture_recognition.ipynb```
 
 ## Dataset
-```blind_user_sample_data``` directory contains a subset of blind users' gyroscope gesture data collected using Fossil Gen 5e smartwatch at 100 Hz sampling rate. It includes 3 samples of 5 different gestures from a user.
+```blind_user_sample_data``` directory contains a subset of blind users' gyroscope gesture data collected using Fossil Gen 5 smartwatch at a 100 Hz sampling rate. It includes 3 samples of 5 different gestures from a user.
 
 Data format: gesture_sample.csv
 
