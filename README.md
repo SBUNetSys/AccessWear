@@ -26,10 +26,10 @@ Gestures are as follows:
 
 1 --> move forearm upwards  
 
-2 --> move foream horizontally towards right  
+2 --> move forearm horizontally towards right  
 
 3 --> flick wrist  
 
-4 --> move foream horizontally towards left  
+4 --> move forearm horizontally towards left  
 
 5 --> move forearm downwards
