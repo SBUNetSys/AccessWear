@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/668969913.svg)](https://zenodo.org/badge/latestdoi/668969913)
 # AccessWear
 This is the repository for the **MobiCom' 23 paper AccessWear: Making Smartphone Applications Accessible to Blind Users**. The repository contains the code and sample data for the blind user gesture recognition pipeline.
 
@@ -64,4 +65,3 @@ The nucleus is determined by two change points. The output of this block gives t
 The nucleus of a forearm and a wrist gesture could look similar. We then implement an algorithm to distinguish wrist gestures from forearm gestures. We observe that due to the impulse-like nature of the wrist gesture, jitters are present in the nucleus. To identify these jitters, we implement a lightweight peak detection algorithm. The output of this function sets the boolean ```wrist_bool``` to ```True``` if jitters are detected.
 
 Lastly, we match the detected nucleus against pre-defined gesture templates. We use DTW to match these two signals. The output of this cell prints the detected gesture.
-
