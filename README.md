@@ -1,5 +1,6 @@
 [![DOI](https://zenodo.org/badge/668969913.svg)](https://zenodo.org/badge/latestdoi/668969913)
 # AccessWear
+
 This is the repository for the **MobiCom' 23 paper AccessWear: Making Smartphone Applications Accessible to Blind Users**. The repository contains the code and sample data for the blind user gesture recognition pipeline.
 
 
@@ -7,7 +8,22 @@ AccessWear is a system that improves the accessibility of smartphone touchscreen
 and does not require per-person training. We focus on gesture recognition for forearm and wrist gestures.
 AccessWear’s gesture recognition uses Inertial Measurement Unit or IMU sensors of smartwatches. Since human arm and hand movements are primarily rotational we use the gyroscope sensor. Each blind user has a unique style in which they move their arm and hands. Upon observing the gyroscope data of different blind users at a more granular level, we found that despite the overall differences in gesture patterns, each gesture exhibits a distinct signature. This signature, ”nucleus” is the core of the gesture and is consistent across users for the same gesture. We extract this nucleus using a lightweight algorithm. Lastly, we compare the extracted nucleus to a pre-defined template using template-matching techniques. In contrast to existing approaches that require large amounts of data, we have a single template for each gesture to classify a gesture.
 
+<img width="230" alt="accesswear" align="center" src="https://github.com/user-attachments/assets/ff971e63-afd6-4fc7-a7cc-eee8151c5031" />
+
+
+BibTeX Reference
+```
+@inproceedings{khanna2023accesswear,
+  title={AccessWear: Making Smartphone Applications Accessible to Blind Users},
+  author={Khanna, Prerna and Feiz, Shirin and Xu, Jian and Ramakrishnan, IV and Jain, Shubham and Bi, Xiaojun and Balasubramanian, Aruna},
+  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
+  pages={1--16},
+  year={2023}
+}
+```
+
 This repository provides a tutorial notebook to understand each step of blind users’ lightweight and no per-person training gesture recognition algorithm.
+
 
 ## 1. Clone this repository
 ```
