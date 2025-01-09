@@ -1,5 +1,18 @@
 # AccessWear
-This is the repository for the MobiCom' 23 paper AccessWear: Making Smartphone Applications Accessible to Blind Users
+This is the repository for the MobiCom' 23 paper AccessWear: Making Smartphone Applications Accessible to Blind Users.
+<img width="230" alt="accesswear" align="center" src="https://github.com/user-attachments/assets/ff971e63-afd6-4fc7-a7cc-eee8151c5031" />
+
+
+BibTeX Reference
+```
+@inproceedings{khanna2023accesswear,
+  title={AccessWear: Making Smartphone Applications Accessible to Blind Users},
+  author={Khanna, Prerna and Feiz, Shirin and Xu, Jian and Ramakrishnan, IV and Jain, Shubham and Bi, Xiaojun and Balasubramanian, Aruna},
+  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
+  pages={1--16},
+  year={2023}
+}
+```
 
 ## 1. Clone this repository
 ```
