@@ -1,5 +1,6 @@
 # AccessWear
 This is the repository for the MobiCom' 23 paper AccessWear: Making Smartphone Applications Accessible to Blind Users.
+
 <img width="230" alt="accesswear" align="center" src="https://github.com/user-attachments/assets/ff971e63-afd6-4fc7-a7cc-eee8151c5031" />
 
 
